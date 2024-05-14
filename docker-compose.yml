@@ -1,0 +1,13 @@
+version: '3'
+services:
+  express-hello-server:
+    build:
+      context: ./express
+    ports:
+      - "3000:3000"
+
+  go-hello-server:
+    build:
+      context: ./go
+    ports:
+      - "3001:3001"
