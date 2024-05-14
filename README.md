@@ -1,1 +1,1 @@
-Run with `bash becnh.sh`.
+Run with `bash bench.sh`.
